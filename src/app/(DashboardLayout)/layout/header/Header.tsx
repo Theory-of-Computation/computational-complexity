@@ -41,12 +41,12 @@ const Header = () => {
   return (
     <>
       <header
-        className={`sticky top-0 z-2 ${
-          isSticky ? "bg-background shadow-md fixed w-full" : "bg-transparent"
+        className={`sticky top-0 z-20 border-b border-purple-200/30 dark:border-purple-900/30 ${
+          isSticky ? "bg-[#faf8ff] dark:bg-[#0f0b1a] shadow-lg shadow-purple-500/5 dark:shadow-purple-900/20 fixed w-full" : "bg-transparent"
         }`}
       >
         <nav
-          className={`rounded-none  md:py-4 sm:ps-6 max-w-full! sm:pe-10 dark:bg-dark flex justify-between items-center px-6`}
+          className={`rounded-none md:py-4 sm:ps-6 max-w-full! sm:pe-10 bg-[#faf8ff] dark:bg-[#0f0b1a] flex justify-between items-center px-6`}
         >
           {/* Mobile Toggle Icon */}
           <div
@@ -63,7 +63,7 @@ const Header = () => {
               <Image
                 src="/favicon.svg"
                 alt="Logo"
-                width={35 }
+                width={35}
                 height={35}
                 className="flex-shrink-0"
               />

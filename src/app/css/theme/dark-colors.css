@@ -1,8 +1,8 @@
 /*---break---*/
 .dark {
-    --background: var(--color-dark);
+    --background: #0f0b1a;
     --foreground: var(--color-white);
-    --card: var(--color-dark);
+    --card: #1a1526;
     --card-foreground: var(--color-white);
     --popover: var(--color-darkgray);
     --popover-foreground: var(--color-white);

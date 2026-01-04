@@ -105,7 +105,7 @@ const SidebarLayout = ({ onClose }: { onClose?: () => void }) => {
       width={"270px"}
       showTrigger={false}
       mode={sidebarMode}
-      className="fixed left-0 top-0 border border-border dark:border-darkborder bg-white dark:bg-dark z-10 h-screen"
+      className="fixed left-0 top-0 border-r border-purple-200/30 dark:border-purple-900/30 bg-[#faf8ff] dark:bg-[#0f0b1a] z-10 h-screen"
     >
       {/* Logo */}
       <div className="px-6 py-5 flex items-center justify-center brand-logo overflow-hidden">

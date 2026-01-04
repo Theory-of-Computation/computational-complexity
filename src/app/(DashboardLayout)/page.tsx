@@ -96,7 +96,7 @@ function Page() {
                   size="lg"
                   className="bg-linear-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
                 >
-                  <a href="/exercises/complexity-theory">
+                  <a href="/exercises/duplicates&triplicates">
                     Start Learning
                   </a>
                 </Button>

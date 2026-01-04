@@ -76,7 +76,7 @@ export default function CodeBlock({ code, language = "python", showLineNumbers =
   }, [code, language]);
 
   return (
-    <BlurFade className="rounded-md overflow-hidden border relative">
+    <BlurFade className="rounded-md overflow-hidden border relative bg-[#0f0b1a]" >
       <div ref={containerRef}>
         <button
           type="button"
